@@ -1,7 +1,7 @@
 {
   "name": "@piuccio/time-fn",
   "version": "0.0.0",
-  "description": "",
+  "description": "Measure how long it takes to call an asynchronous function",
   "main": "index.js",
   "scripts": {
     "test": "jest --coverage",
@@ -14,6 +14,10 @@
   },
   "keywords": [],
   "author": "Fabio Crisci <fabio.crisci@gmail.com> (https://github.com/piuccio)",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:piuccio/time-fn.git"
+  },
   "license": "MIT",
   "devDependencies": {
     "eslint": "5.15.3",
