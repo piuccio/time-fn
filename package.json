@@ -4,13 +4,25 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest --coverage",
+    "test:watch": "jest --watchAll",
+    "posttest": "npm run lint",
     "lint": "eslint --ignore-path .gitignore --cache --fix ."
+  },
+  "engines": {
+    "node": ">= 10.0.0"
   },
   "keywords": [],
   "author": "Fabio Crisci <fabio.crisci@gmail.com> (https://github.com/piuccio)",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "5.15.3"
+    "eslint": "5.15.3",
+    "jest": "24.5.0"
+  },
+  "dependencies": {
+    "pretty-ms": "4.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
   }
 }
