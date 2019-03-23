@@ -1,5 +1,5 @@
 {
-  "name": "time-fn",
+  "name": "@piuccio/time-fn",
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
@@ -24,5 +24,8 @@
   },
   "jest": {
     "testEnvironment": "node"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
